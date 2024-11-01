@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webtasha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang website ini</a></li>
+                <li><a href="#company data">Data perusahaan</a></li>
+                <li><a href="#company data">Partner perusahaan</a></li>
+                <li><a href="#motto visi misi">Motto visi misi</a></li>
+                <li><a href="#galery">Galery</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Selamat Datang di website PT.TASHA INDONESIA</h1>
+        <div class="item">
+            <img src="foto1.jpeg" alt="Proyek 1" style="width: 500px; height: auto;">
+            <p>Ini adalah web sederhana PT.Tasha Indonesia!</p>
+        </div>
+    </section>
+    
+
+    <section id="about">
+        <h2>Latar Belakang Perusahaan</h2>
+        <p>PT.TASHA INDONESIA adalah salah satu perusahaan swasta di kota Tuban dengan sekian pengalaman menangani berbagai pekerjaan kontruksi, meknikal, sipil, scaffolding, elektrikal dan man powersupply.</p>
+        <p>Dengan didukung oleh tenaga local yang berpengalaman dan handal sehingga kami mampu menghadapi tantangan perjakaan mendapatkan hasil yang berkualitas dan layanan terbaik serta mengedepankan profesionalisme.</p>
+        <p>Perusahaan kami menawarkan kerjasama dengan berbagai perusahaan nasional maupun instansi pemerintah sesuai dengan bideng keahlian kami. Dengan sekian pengalaman kerja sama yang telah terjalin dengan beberapa patnert atau rekanan kami sebelumnya,sehingga dapat menjadi pertimbangan untuk memberikan kesempatan serta kepercayaan kepada perusahaan kami.
+        </p>
+    </section>
+
+    <section id="company data">
+        <h2>Data Perusahaaan</h2>
+        <p>Nama perusahaan: PT.Tasha Indonesia</p>
+        <p>Alamat Office  : JL.Raya Tasikharjo-remen No. 09 Desa Tasikharjo,Kec.jenu-tuban-jawatimur</p>
+        <p>Alamat workshop: JL.Raya Merakurak Kerek Desa Temandang,Kec.Merakurak-Tuban-Jawatimur</p>
+        <p>No.telepon     : 0356-49124 [office]</p>
+                        <p>08913-3157-2112 [masyrochin]</p>
+    </section>
+
+    <section id="motto visi misi">
+        <h2>Motto Visi Misi</h2>
+        <p>MOTTO: Kualiatas terdepan dengan layanan terbaik </p>
+        <p>VISI  : Menjadi perusahaan kontraktor yang selalu memprioritaskan kualitas secara optinum pembangunan yang berkelanjutan di indonesia.</p>
+        <p>MISI: -        Selalu mengembangkan produk dan jasa sebagai motivasi dan tujuan perusahaan.</p>
+        <p>      -        Menciptakan hubungan kerja sama yang kuat dengan mitra kerja.</p>
+        <p>      -        Mengedepankan pelayanan dengan profesional dan penuh tanggung jawab.</p>
+    </section>
+
+
+    <section id="galery">
+        <h2>Galery Pekerjaan</h2>
+        <label for="projectSelect">Pilih galeri pekerjaan:</label>
+        <select id="projectSelect" onchange="showProject()">
+            <option value="">--pilih galeri--</option>
+            <option value="project1">Proyek 1 - Contractor</option>
+            <option value="project2">Proyek 2 - Scaffolding</option>
+            <option value="project3">Proyek 3 - Freshwater</option>
+            <option value="project4">Proyek 4 - Rental Alat Berat</option>
+        </select>
+    
+        <div id="gallery">
+            <div class="item" id="project1" style="display:none;">
+                <img src="kontraktor1.jpg" alt="contractor" style="width: 300px; height: auto;">
+                <img src="kontraktor2.jpg" alt="contractor" style="width: 300px; height: auto;">
+                <img src="kontraktor3.jpg" alt="contractor" style="width: 300px; height: auto;">
+                <p>GALERY KONTRAKTOR: Pengelasan dalam proyek kontruksi besar.</p>
+            </div>
+            <div class="item" id="project2" style="display:none;">
+                <img src="scaffolding1.jpg" alt="Proyek 2 - scaffolding" style="width: 300px; height: auto;">
+                <img src="scaffolding2.jpg" alt="Proyek 2 - scaffolding" style="width: 300px; height: auto;">
+                <img src="scaffolding3.jpg" alt="Proyek 2 - scaffolding" style="width: 300px; height: auto;">
+                <img src="scaffolding4.jpg" alt="Proyek 2 - scaffolding" style="width: 300px; height: auto;">
+                <img src="scaffolding5.jpg" alt="Proyek 2 - scaffolding" style="width: 300px; height: auto;">
+                <img src="scaffolding6.jpg" alt="Proyek 2 - scaffolding" style="width: 300px; height: auto;">
+                <p>GALERY SCAFFOLDING: scaffolding adalah untuk memenuhi kebutuhan konstruksi yang dibutuhkan oleh para kontraktor bangunan. Umumnya, salah satu struktur bangunan ini digunakan untuk memudahkan para tenaga kerja dalam menjangkau bangunan yang memiliki ketinggian lebih dari 2 m.
+                                       Maka dari itu, scaffolding sering ditemukan pada gedung-gedung pencakar langit, rumah bertingkat 5 lantai, dan bangunan-bangunan tinggi seperti ini lainnya. Sebelum membangun lantai atas bangunan, kontraktor akan menyiapkan scaffolding terlebih dahulu, agar bisa melanjutkan pekerjaannya tersebut.</p>
+            </div>
+            <div class="item" id="project3" style="display:none;">
+                <img src="freshwater1.jpg" alt="Proyek 3 - Freshwater" style="width: 300px; height: auto;">
+                <img src="freshwater2.jpg" alt="Proyek 3 - Freshwater" style="width: 300px; height: auto;">
+                <p>GALERY FRESHWATER: freshwater di lokasi proyek industri.</p>
+            </div>
+            <div class="item" id="project4" style="display:none;">
+
+                <img src="alatberat1.jpg" alt="Proyek 4 - rental alat berat" style="width: 300px; height: auto;">
+                <img src="alatberat2.jpg" alt="Proyek 4 - rental alat berat" style="width: 300px; height: auto;">
+                <img src="alatberat3.jpg" alt="Proyek 4 - rental alat berat" style="width: 300px; height: auto;">
+                <img src="alatberat4.jpg" alt="Proyek 4 - rental alat berat" style="width: 300px; height: auto;">
+                <p>GALERY RENTAL ALAT BERAT: merupakan salah satu jenis mesin yang digunakan dalam berbagai sektor industri, konstruksi, dan pertambangan. Penggunaan alat berat sangat penting dalam mempercepat proses pekerjaan, menghemat waktu dan tenaga manusia, serta meningkatkan efisiensi kerja.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <script>
+        function showProject() {
+            // Sembunyikan semua proyek
+            var projects = document.querySelectorAll('#gallery .item');
+            projects.forEach(function(project) {
+                project.style.display = 'none';
+            });
+    
+            // Tampilkan proyek yang dipilih
+            var selectedProject = document.getElementById(document.getElementById('projectSelect').value);
+            if (selectedProject) {
+                selectedProject.style.display = 'block';
+            }
+        }
+    </script>
+    
+
+    <section id="contact">
+        <h2>Kontak</h2>
+        <p>Email: <a href="mailto:tashaind@ymail.com">tashaind@ymail.com</a></p>
+        <p>Telepon: 081231336114</p>
+        <p>Jam: Tutup. Terbuka 08.00-16.00</p>
+    </section>    
+
+    <footer>
+        <p>&copy; 2024 PT.Tasha Indonesia. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
